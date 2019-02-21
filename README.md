@@ -1,4 +1,4 @@
-POC Evalution
+<B>POC Evalution</B>
 
 This repo requires Ubuntu 16.04 LTS with Docker / Docker-compose installed
 
@@ -11,7 +11,7 @@ Following this README will result in the following:
 * One server is a MySql server
 * Final configuration of the web and database server is accomplished using SaltStack
 
-Prerequisites
+<B>Prerequisites</B>
 
 * A starting base OS of Ubuntu 16.04 LTS
 * Docker and Docker-compose
@@ -19,7 +19,7 @@ Prerequisites
 * Public internet connection from Host and Docker containers
 
 
-Installation
+<B>Installation</B>
 
 From a Host server running Ubuntu 16.04 LTS with Docker, Docker-compose, and Git already installed, follow the step-by-step instructions below:
 
@@ -66,7 +66,7 @@ When the build script is complete, you can point your browser to port 42000 of t
 The url would be something like: http://IP_OF_HOST:42000/
 
 
-Contact
+<B>Contact</B>
 
 Writer: Jason Rentz
 
