@@ -1,0 +1,31 @@
+version: '2'
+
+services: 
+  salt-master:
+    build:
+      context: .
+      dockerfile: Dockerfile.master
+    environment:
+      - HOSTNAME=salt_master
+  salt-minion_web:
+    build:
+      context: .
+      dockerfile: Dockerfile.minion
+    environment:
+      - HOSTNAME=web 
+    ports:
+      - "42000:80"
+    depends_on:
+      - salt-master
+  salt-minion_db:
+    build:
+      context: .
+      dockerfile: Dockerfile.minion
+    environment:
+      - HOSTNAME=db
+    expose:
+      - "3306"
+    depends_on:
+      - salt-master
+
+
