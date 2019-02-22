@@ -13,10 +13,10 @@ Following this README will result in the following:
 
 <B>Prerequisites</B>
 
-* A starting base OS of Ubuntu 16.04 LTS
-* Docker and Docker-compose
-* Git
-* Public internet connection from Host and Docker containers
+* A starting base OS of Ubuntu 16.04 LTS [ Click [HERE](https://github.com/jrentz/poc/wiki/Installing-Ubuntu-16.04-LTS) for installation instructions ]
+* Docker version 18.09.2 and Docker-compose 1.8.0 [ Click [HERE](https://github.com/jrentz/poc/wiki/Installing-Docker-Docker-Compose-on-Ubuntu-16.04-LTS) for installation instructions ]
+* Git [ Installed by default ]
+* Public internet connection
 
 
 <B>Installation</B>
