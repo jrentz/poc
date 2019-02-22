@@ -65,6 +65,14 @@ When the build script is complete, you can point your browser to port 42000 of t
 
 The url would be something like: http://IP_OF_HOST:42000/
 
+<B>Scripts</B>
+
+Other scripts in the ./scripts directory
+```sh
+~/poc/scripts$ sudo ./stop.sh      [ Stop the servers ]
+~/poc/scripts$ sudo ./login_db.sh  [ Login to the database server ]
+~/poc/scripts$ sudo ./login_web.sh [ Login to the webserver ]
+```
 
 <B>Contact</B>
 
