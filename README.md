@@ -34,7 +34,7 @@ Build the SaltStack master, webserver and database server containers.
 
 
 ```sh
-~/poc/build$ ./build.sh
+~/poc/build$ sudo ./build.sh
 
 ```
 
@@ -42,13 +42,13 @@ Now start the servers
 
 ```sh
 ~/poc/build$ cd ../scripts
-~/poc/scripts$ ./start.sh
+~/poc/scripts$ sudo ./start.sh
 
 ```
 Log into the SaltStack master server
 
 ```sh
-~/poc/scripts$ ./login_master.sh
+~/poc/scripts$ sudo ./login_master.sh
 :/#  echo $HOSTNAME
 salt-master
 :/#
@@ -58,7 +58,7 @@ From the SaltStack master, run the build script to finalize the install
 
 ```sh
 :/# cd poc/salt_master
-:~/poc/salt_master# ./BuildServers.sh
+:~/poc/saltmaster# ./BuildServers.sh
 ```
 
 When the build script is complete, you can point your browser to port 42000 of the host server to view a webpage displaying the results requested.
