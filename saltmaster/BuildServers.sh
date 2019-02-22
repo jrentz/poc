@@ -127,4 +127,4 @@ dbaccess $DB_ID $WEB_IP
 # Push index.php and config file down to webserer
 phpconfig $WEB_ID $DB_IP
 
-echo "Done.  You should now be able to open http://<HOST_IP>:42000/index.php"
+echo "Done.  You should now be able to open http://<HOST_IP>:42000"
