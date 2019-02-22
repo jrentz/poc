@@ -82,7 +82,7 @@ do
         DB_IP=`salt $ID cmd.run 'tail -1 /etc/hosts' --out=txt | awk '{print $2}'`;
         echo "IP of $DB_ID is $DB_IP..."
         # Install needed packages
-        echo "Installing needed packages, this is expected to take a few min. Good time to get coffee?..."
+        echo "Installing needed packages, this will take a few min.(Expect 1 false positive failure) Good time to get coffee?..."
         dbinstall $ID
         # Comment out bind-address in config to allow db to listen to all devices
         echo "Change bindings for Database..."
