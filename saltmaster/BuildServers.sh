@@ -8,7 +8,7 @@
 #DB Install
 function dbinstall {
     salt $1 state.apply database_installed;
-    MYSQLSERVER=`salt $1 pkg.list_pkgs | grep mysql-server-core-5.77`
+    MYSQLSERVER=`salt $1 pkg.list_pkgs | grep mysql-server-core-5.7`
     MYSQLCLIENT=`salt $1 pkg.list_pkgs | grep mysql-client-5.7`
     if [ -z "$MYSQLSERVER" ] || [ -z "$MYSQLCLIENT" ]
     then
