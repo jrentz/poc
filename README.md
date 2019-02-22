@@ -57,7 +57,7 @@ salt-master
 From the SaltStack master, run the build script to finalize the install
 
 ```sh
-:/# cd poc/salt_master
+:/# cd poc/saltmaster
 :~/poc/saltmaster# ./BuildServers.sh
 ```
 
